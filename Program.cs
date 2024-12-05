@@ -13,9 +13,9 @@ class Program
             case 1:
                 Task1Product.Run();
                 break;
-            //case 2:
-            //    Task2Demo.Run();
-            //    break;
+            case 2:
+                Task2BankAccount.Run();
+                break;
             //case 3:
             //    Task3Demo.Run();
             //    break;
