@@ -19,9 +19,9 @@ class Program
             case 3:
                 Task3DivisionCalclulator.Run();
                 break;
-            //case 4:
-            //    Task4Demo.Run();
-            //    break;
+            case 4:
+                Task4ValidateAge.Run();
+                break;
             //case 5:
             //    Task5Demo.Run();
             //    break;

@@ -1,6 +1,6 @@
 ﻿namespace ConsoleApp6
 {
-    public static class DivisionCalculator
+    public static class Task3DivisionCalclulator
     {
         public static void Run()
         {
@@ -21,7 +21,7 @@
             try
             {
                 int result = DivideNumbers(dividend, divisor);
-                Console.WriteLine($"Result: {dividend} ÷ {divisor} = {result}");
+                Console.WriteLine($"Result: {dividend} / {divisor} = {result}");
             }
             catch (DivideByZeroException ex)
             {
