@@ -16,9 +16,9 @@ class Program
             case 2:
                 Task2BankAccount.Run();
                 break;
-            //case 3:
-            //    Task3Demo.Run();
-            //    break;
+            case 3:
+                Task3DivisionCalclulator.Run();
+                break;
             //case 4:
             //    Task4Demo.Run();
             //    break;

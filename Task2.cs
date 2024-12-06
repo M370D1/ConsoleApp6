@@ -2,7 +2,7 @@
 
 namespace ConsoleApp6
 {
-    public class BankAccount
+    public class BankAccount // Task 2
     {
         public string AccountNumber { get; private set; }
         public decimal Balance { get; private set; }
