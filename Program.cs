@@ -22,9 +22,9 @@ class Program
             case 4:
                 Task4ValidateAge.Run();
                 break;
-            //case 5:
-            //    Task5Demo.Run();
-            //    break;
+            case 5:
+                Task5FileReader.Run();
+                break;
             default:
                 Console.WriteLine("Invalid option!");
                 break;
