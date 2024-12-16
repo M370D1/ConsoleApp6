@@ -33,6 +33,11 @@ namespace ConsoleApp6
             }
             finally
             {
+                if (reader != null)
+                {
+                    reader.Close();
+                    Console.WriteLine("Release file lock");
+                }
                 Console.WriteLine("File operation complete.");
             }
         }
